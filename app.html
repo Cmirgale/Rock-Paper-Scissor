@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" src="code2.js"></script>
+    <link rel="stylesheet" href="app.css"></style>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Raleway:wght@100;300;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Raleway:wght@100;300;500&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--Main div-->
+    <div class="main">
+        <!--Header div-->
+        <div class="header" >
+            <h1 >Rock Paper Scissor</h1>
+        </div>
+
+        <!--Result div-->
+        <div id="result">
+            <!-- <p>You Won</p> -->
+        </div>    
+
+        <!--Score div-->
+        <div class="score">    
+            <!--Player's Score span-->
+                <span class="playerScore">
+                    <span>Player : </span><span id="playerScore"></span>
+                </span>
+            <!--Computer's Score span-->
+                <span class="computerScore">
+                    <span>Computer : </span><span id="computerScore"></span>
+                </span>
+        </div>
+        <!--Selection div-->
+        <div class="selection">
+            
+            <!--Player Selection div-->
+            <div style="display: inline; align-content: center;">
+                <span class="playerSelection" >
+                    <img id="playerSelection">
+                </span>
+            </div>
+            
+            <!--Computer Selection div-->
+            <div style="display: inline; align-content: center;">
+                <span class="computerSelection" >
+                    <img id="computerSelection">
+                </span>
+            </div>
+
+        </div>
+        <!--Button div-->
+        <div class="button">
+            <button class="game" value="Rock"><img id="Rock" src="images\Rock.png"></button>
+            <button  class="game" value="Paper"><img id="Paper" src="images\Paper.png"></button>
+            <button  class="game" value="Scissor"><img id="Scissor" src="images\Scissor.png"></button>
+            
+            <!-- <button id="Rock" class="game" value="Rock">Rock</button>
+            <button id="Paper" class="game" value="Paper">Paper</button>
+            <button id="Scissor" class="game" value="Scissor">Scissor</button> -->
+            
+        </div>
+    </div>
+    
+    
+    
+    
+    <!--script type="text/javascript" src="code.js"></script-->
+</body>
+</html>
